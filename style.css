@@ -894,6 +894,7 @@ h2 {
 }
 .seven_flame-active {
   opacity: 1;
+  transition: all 0.3s linear;
 }
 .one_flame {
   opacity: 0;
@@ -911,6 +912,7 @@ h2 {
 }
 .one_flame-active {
   opacity: 1;
+  transition: all 0.3s linear;
 }
 @-webkit-keyframes flame {
   0% {
@@ -928,15 +930,15 @@ h2 {
 }
 @keyframes flame {
   0% {
-    height: 12px;
+    height: 22px;
     background: #fdd214;
   }
   50% {
-    height: 14px;
+    height: 17.5px;
     background: #ffc617;
   }
   100% {
-    height: 12px;
+    height: 22px;
     background: #fdd214;
   }
 }
