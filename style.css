@@ -890,6 +890,7 @@ h2 {
   animation: flame 0.5s infinite linear;
   -moz-animation: flame 0.5s infinite linear;
   bottom: 2px;
+  transition: all 1s linear;
 }
 .seven_flame-active {
   opacity: 1;
@@ -906,6 +907,7 @@ h2 {
   -webkit-animation: flame 0.5s infinite linear;
   animation: flame 0.5s infinite linear;
   -moz-animation: flame 0.5s infinite linear;
+  transition: all 1s linear;
 }
 .one_flame-active {
   opacity: 1;
